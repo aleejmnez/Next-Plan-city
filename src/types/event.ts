@@ -1,5 +1,10 @@
 export interface Event {
-    id: string;
-    name: string;
-    
+    name: string,
+    description: string,
+    date: string,
+    location: string,
+    price: number,
+    capacity: number,
+    categoryId: string,
+    images: Array<string>   
 }
